@@ -51,8 +51,8 @@ namespace MyDungeon
                     Tile _tile
                         = _object.GetComponent<Tile>();
 
-                    _tile.SetCoordinates(i, j);
-                    _tile.SetType(0);
+                    //_tile.SetCoordinates(i, j);
+                    //_tile.SetType(0);
                 }
         }
 
@@ -72,7 +72,9 @@ namespace MyDungeon
             //Read in tile data here
 
             for (int i = 0; i < _tiles.Length; i++)
-                _tiles[i].SetType(0);
+            {
+                //_tiles[i].SetType(0);
+            }
         }
 
         public void SetName()

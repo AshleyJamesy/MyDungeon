@@ -61,8 +61,7 @@ public class Room : MonoBehaviour {
 
                     if (_tile)
                     {
-                        _tile.SetCoordinates(i, j);
-                        
+                        //_tile.SetCoordinates(i, j);
                         //_tile.SetType(0);
                     }
                 }
@@ -73,8 +72,8 @@ public class Room : MonoBehaviour {
     {
         if(m_UseGuides)
         {
-            Gizmos.color = m_RoomColor;
-            Gizmos.DrawCube(transform.position, Size);
+            //Gizmos.color = m_RoomColor;
+            //Gizmos.DrawCube(transform.position, Size);
 
             Vector3 _position01 = new Vector3();
             Vector3 _position02 = new Vector3();

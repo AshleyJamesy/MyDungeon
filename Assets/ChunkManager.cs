@@ -4,8 +4,14 @@ using System.Collections.Generic;
 
 public class GridCoordinates
 {
-    int m_X = 0;
-    int m_Y = 0;
+    public GridCoordinates(int _x, int _y)
+    {
+        m_X = _x;
+        m_Y = _y;
+    }
+
+    public int m_X = 0;
+    public int m_Y = 0;
 }
 
 public class ChunkManager : MonoBehaviour {
